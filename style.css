@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-family: "Amiko", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #7c7c84;
+}
+
+p {
+  font-family: "Antic Slab", serif;
+  color: #7c7c84;
+  font-weight: 500px;
+}
+
+::-webkit-input-placeholder {
+  color: #9898a1;
+}
+
+:-ms-input-placeholder {
+  color: #9898a1;
+}
+
+::-ms-input-placeholder {
+  color: #9898a1;
+}
+
+::placeholder {
+  color: #9898a1;
+}
+
+#number {
+  border: none;
+  font-family: "Amiko", sans-serif;
+  border-bottom-style: solid;
+  border-bottom-color: #acacb4;
+  width: 18rem;
+  margin-top: 2rem;
+}
+
+#number:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #585771;
+  color: white;
+}
+
+button {
+  background-color: #ccffcc;
+  color: #333366;
+  padding: 8px;
+  border: none;
+  font-family: "Amiko", sans-serif;
+  border-radius: 25px;
+  width: 6rem;
+  outline: none;
+}
+
+.submitBtn {
+  margin-top: 1rem;
+}
+
+.message {
+  margin-top: 1.5rem;
+}
